@@ -1,0 +1,66 @@
+:root {
+  --background-color: #fff;
+  --text-color: hsla(210, 10%, 8%, 0.847);
+  --link-color: #543fd7;
+  --alternate-background-color: #f7f7f9;
+  --text-color-light: #777676bb;
+  --masthead-color: #543fd7;
+  --masthead-text: #fff;
+  --button-color: #263238;
+  --button-text: #fff;
+  --bs-font-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-serif: Georgia, serif;
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+
+html[data-theme="light"] {
+  --background-color: #fff;
+  --text-color: hsla(210, 10%, 8%, 0.847);
+  --link-color: #543fd7;
+}
+
+html[data-theme="dark"] {
+  --background-color: #212a2e;
+  --text-color: #f7f8f8;
+  --link-color: #828fff;
+}
+
+/* Default colors */
+body {
+  --text-color: #222;
+  --bkg-color: #fff;
+}
+/* Dark theme colors */
+body.dark-theme {
+  --text-color: #eee;
+  --bkg-color: #121212;
+}
+
+/* Styles for users who prefer dark mode at the OS level */
+@media (prefers-color-scheme: dark) {
+  /* defaults to dark theme */
+  body {
+    --text-color: #eee;
+    --bkg-color: #121212;
+  }
+  /* Override dark mode with light mode styles if the user decides to swap */
+  body.light-theme {
+    --text-color: #222;
+    --bkg-color: #fff;
+  }
+}
+
+/* Apply the filter directly on the body tag */
+body.dark-theme img {
+  filter: brightness(0.8) contrast(1.2);
+}
+
+/* Or apply it via media query */
+@media (prefers-color-scheme: dark) {
+  img {
+    filter: brightness(0.8) contrast(1.2);
+  }
+}

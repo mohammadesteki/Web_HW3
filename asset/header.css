@@ -1,0 +1,26 @@
+.header-section{
+    background-image: url("./img/header.jpg");
+    height: 400px !important;
+}
+
+.header-section .navbar{
+    background-color: transparent !important;
+    /* padding: 24px 108px */
+    /* padding: ; */
+}
+
+.navbar__title{
+    font-size: xx-large;
+    padding-top: 24px;
+    color: white;
+    text-shadow:#333 2px 2px 20px;
+}
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    color:unset !important; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
