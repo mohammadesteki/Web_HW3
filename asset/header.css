@@ -11,6 +11,7 @@
 
 .navbar__title{
     font-size: xx-large;
+<<<<<<< HEAD
     font-weight: bolder;
     padding-top: 24px;
     color: var(--text-color);
@@ -31,6 +32,11 @@
 }
 .nav-link{
     color: var(--text-color) !important;
+=======
+    padding-top: 24px;
+    color: white;
+    text-shadow:#333 2px 2px 20px;
+>>>>>>> 52b3294f5a6d5a4e9575c4d08399ba13670f5bc7
 }
 a {
     text-decoration: none !important;

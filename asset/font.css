@@ -2,42 +2,84 @@
     font-family: Yekan;
     font-style: normal;
     font-weight: 300;
+<<<<<<< HEAD
     src: url('./fonts/Yekan/Fonts/FaNum/3Light.eot');
+=======
+    src: url('../asset/fonts/Yekan/Fonts/FaNum/Yekan Bakh FaNum 03 Light.eot');
+    src: url('../asset/fonts/Yekan/Fonts/FaNum/Yekan Bakh FaNum 03 Light.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../asset/fonts/Yekan/Fonts/FaNum/Yekan Bakh FaNum 03 Light.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+>>>>>>> 52b3294f5a6d5a4e9575c4d08399ba13670f5bc7
 }
 @font-face {
     font-family: Yekan;
     font-style: normal;
     font-weight: 400;
+<<<<<<< HEAD
     src: url('./fonts/Yekan/Fonts/FaNum/4Regular.eot');
     
+=======
+    src: url('../asset/fonts/Yekan/Fonts/FaNum/Yekan Bakh FaNum 04 Regular.eot');
+    src: url('../asset/fonts/Yekan/Fonts/FaNum/Yekan Bakh FaNum 04 Regular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../asset/fonts/Yekan/Fonts/FaNum/Yekan Bakh FaNum 04 Regular.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+>>>>>>> 52b3294f5a6d5a4e9575c4d08399ba13670f5bc7
 }
 @font-face {
     font-family: Yekan;
     font-style: normal;
     font-weight: 500;
+<<<<<<< HEAD
     src: url('./font/Yekan/Fonts/FaNum/5Medium.eot');
+=======
+    src: url('../asset/fonts/Yekan/Fonts/FaNum/Yekan Bakh FaNum 05 Medium.eot');
+    src: url('../asset/fonts/Yekan/Fonts/FaNum/Yekan Bakh FaNum 05 Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../asset/fonts/Yekan/Fonts/FaNum/Yekan Bakh FaNum 05 Medium.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+>>>>>>> 52b3294f5a6d5a4e9575c4d08399ba13670f5bc7
 }
 @font-face {
     font-family: Yekan;
     font-style: normal;
     font-weight: 900;
+<<<<<<< HEAD
     src: url('./fonts/Yekan/Fonts/FaNum/Yekan\ Bakh\ FaNum\ 07\ Heavy.eot');
+=======
+    src: url('../asset/fonts/Yekan/Fonts/FaNum/Yekan Bakh FaNum 07 Heavy.eot');
+    src: url('../asset/fonts/Yekan/Fonts/FaNum/Yekan Bakh FaNum 07 Heavy.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../asset/fonts/Yekan/Fonts/FaNum/Yekan Bakh FaNum 07 Heavy.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+>>>>>>> 52b3294f5a6d5a4e9575c4d08399ba13670f5bc7
 }
 @font-face {
     font-family: 'Yekan Fat';
     font-style: normal;
     font-weight: 900;
+<<<<<<< HEAD
     src: url('./fonts/Yekan/Fonts/FaNum/Yekan\ Bakh\ FaNum\ 08\ Medium.eot');
+=======
+    src: url('../asset/fonts/Yekan/Fonts/FaNum/Yekan Bakh FaNum 08 Fat.eot');
+    src: url('../asset/fonts/Yekan/Fonts/FaNum/Yekan Bakh FaNum 08 Fat.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../asset/fonts/Yekan/Fonts/FaNum/Yekan Bakh FaNum 08 Fat.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+>>>>>>> 52b3294f5a6d5a4e9575c4d08399ba13670f5bc7
 }
 @font-face {
     font-family: Yekan;
     font-style: normal;
     font-weight: bold;
+<<<<<<< HEAD
     src: url('./fonts/Yekan/Fonts/FaNum/Yekan\ Bakh\ FaNum\ 06\ Medium.eot');
+=======
+    src: url('../asset/fonts/Yekan/Fonts/FaNum/Yekan Bakh FaNum 06 Bold.eot');
+    src: url('../asset/fonts/Yekan/Fonts/FaNum/Yekan Bakh FaNum 06 Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../asset/fonts/Yekan/Fonts/FaNum/Yekan Bakh FaNum 06 Bold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+>>>>>>> 52b3294f5a6d5a4e9575c4d08399ba13670f5bc7
 }
 @font-face {
     font-family: Yekan;
     font-style: normal;
     font-weight: normal;
+<<<<<<< HEAD
     src: url('./fonts/Yekan/Fonts/FaNum/Yekan\ Bakh\ FaNum\ 05\ Medium.eot');
+=======
+    src: url('../asset/fonts/Yekan/Fonts/FaNum/Yekan Bakh FaNum 05 Medium.eot');
+    src: url('../asset/fonts/Yekan/Fonts/FaNum/Yekan Bakh FaNum 05 Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../asset/fonts/Yekan/Fonts/FaNum/Yekan Bakh FaNum 05 Medium.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+>>>>>>> 52b3294f5a6d5a4e9575c4d08399ba13670f5bc7
 }

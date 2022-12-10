@@ -2,6 +2,7 @@
 .c-flight-search {
   /* width: 800px; */
   /* height: 300px; */
+<<<<<<< HEAD
   border-radius: 16px;
   margin: 50px auto;
   background: var(--search-background-color);
@@ -29,6 +30,30 @@
   text-align: center;
   color: var(--color-text) !important;
   
+=======
+  border-radius: 4px;
+  margin: 50px auto;
+  background: linear-gradient(to right, #F86C77, #DD4F87);
+  padding: 4rem;
+  position: relative;
+}
+
+.c-city__switch {
+  float: left;
+}
+
+.c-city {
+  width: 40%;
+  float: left;
+  position: relative;
+}
+.c-city label {
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.25);
+  font-size: 18px;
+>>>>>>> 52b3294f5a6d5a4e9575c4d08399ba13670f5bc7
 }
 .c-city input {
   width: 100%;
@@ -37,7 +62,11 @@
   background: transparent;
   padding: 0.5rem 0;
   font-size: 1.5rem;
+<<<<<<< HEAD
   color: var(--color-text);
+=======
+  color: #fff;
+>>>>>>> 52b3294f5a6d5a4e9575c4d08399ba13670f5bc7
   letter-spacing: 0.25px;
 }
 .c-city input:focus {
@@ -57,6 +86,7 @@
   margin: 0 0 0 4rem;
 }
 
+<<<<<<< HEAD
 
 @media screen and (max-width: ) {
   
@@ -67,11 +97,47 @@
   flex-direction: row;
 }
 
+=======
+.c-ticket-stub {
+  width: 80px;
+  height: 100%;
+  background: #D44A84;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.c-ticket-stub img {
+  max-width: 40%;
+  transform: rotate(45deg);
+  filter: grayscale(1) invert(1);
+}
+
+img {
+  max-width: 100%;
+}
+
+.c-dates {
+  width: 33%;
+  float: left;
+  margin: 2.5rem 0 0 0;
+}
+.c-dates label {
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.25);
+  font-size: 18px;
+}
+>>>>>>> 52b3294f5a6d5a4e9575c4d08399ba13670f5bc7
 .c-dates select {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
   width: 100%;
+<<<<<<< HEAD
 
   border: 0;
   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
@@ -79,6 +145,17 @@
   /* font-size: 1.5rem; */
   border-radius: 8px;
   letter-spacing: 0.25px;
+=======
+  border: 0;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  padding: 0.5rem 0;
+  font-size: 1.5rem;
+  color: #fff;
+  letter-spacing: 0.25px;
+  margin: 1rem 0 0 0;
+  border-radius: 0;
+>>>>>>> 52b3294f5a6d5a4e9575c4d08399ba13670f5bc7
   position: relative;
 }
 .c-dates select:focus {
