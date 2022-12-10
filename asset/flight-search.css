@@ -1,0 +1,86 @@
+
+.c-flight-search {
+  /* width: 800px; */
+  /* height: 300px; */
+  border-radius: 16px;
+  margin: 50px auto;
+  background: var(--search-background-color);
+  position: relative;
+  top: -200px;
+  height: 300px;
+  /* width: 90%; */
+}
+
+
+.c-flight-search__cities{
+  padding: 16px;
+  display: flex;
+  gap: 24px;
+}
+
+
+
+.toDate{
+  font-size: 8px;
+  color: var(--color-text) !important;
+  text-align: center;
+}
+.fromDate{
+  text-align: center;
+  color: var(--color-text) !important;
+  
+}
+.c-city input {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  padding: 0.5rem 0;
+  font-size: 1.5rem;
+  color: var(--color-text);
+  letter-spacing: 0.25px;
+}
+.c-city input:focus {
+  outline: none;
+}
+
+.c-city__code {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.25);
+  font-size: 18px;
+}
+
+.c-city--to {
+  margin: 0 0 0 4rem;
+}
+
+
+@media screen and (max-width: ) {
+  
+}
+.c-dates {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.c-dates select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 100%;
+
+  border: 0;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  padding: 0.5rem 0;
+  /* font-size: 1.5rem; */
+  border-radius: 8px;
+  letter-spacing: 0.25px;
+  position: relative;
+}
+.c-dates select:focus {
+  outline: none;
+}

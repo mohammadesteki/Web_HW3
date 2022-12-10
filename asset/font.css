@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Yekan;
+    font-style: normal;
+    font-weight: 300;
+    src: url('./fonts/Yekan/Fonts/FaNum/3Light.eot');
+}
+@font-face {
+    font-family: Yekan;
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/Yekan/Fonts/FaNum/4Regular.eot');
+    
+}
+@font-face {
+    font-family: Yekan;
+    font-style: normal;
+    font-weight: 500;
+    src: url('./font/Yekan/Fonts/FaNum/5Medium.eot');
+}
+@font-face {
+    font-family: Yekan;
+    font-style: normal;
+    font-weight: 900;
+    src: url('./fonts/Yekan/Fonts/FaNum/Yekan\ Bakh\ FaNum\ 07\ Heavy.eot');
+}
+@font-face {
+    font-family: 'Yekan Fat';
+    font-style: normal;
+    font-weight: 900;
+    src: url('./fonts/Yekan/Fonts/FaNum/Yekan\ Bakh\ FaNum\ 08\ Medium.eot');
+}
+@font-face {
+    font-family: Yekan;
+    font-style: normal;
+    font-weight: bold;
+    src: url('./fonts/Yekan/Fonts/FaNum/Yekan\ Bakh\ FaNum\ 06\ Medium.eot');
+}
+@font-face {
+    font-family: Yekan;
+    font-style: normal;
+    font-weight: normal;
+    src: url('./fonts/Yekan/Fonts/FaNum/Yekan\ Bakh\ FaNum\ 05\ Medium.eot');
+}

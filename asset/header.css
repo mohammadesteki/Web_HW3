@@ -1,0 +1,43 @@
+.header-section{
+    background-image: url("./img/header.jpg");
+    height: 400px !important;
+}
+
+.header-section .navbar{
+    background-color: transparent !important;
+    /* padding: 24px 108px */
+    /* padding: ; */
+}
+
+.navbar__title{
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-top: 24px;
+    color: var(--text-color);
+    text-shadow:var(--background-color) 2px 2px 20px;
+}
+.navbar__title--description{
+    font-size: large;
+    padding-top: 16px;
+    color: var(--text-color);
+    text-shadow:var(--background-color) 2px 2px 20px;
+
+}
+.navbar-brand{
+    color: var(--text-color) !important;
+    border: var(--text-color) solid 1px;
+    padding: 8px;
+    border-radius: 8px;
+}
+.nav-link{
+    color: var(--text-color) !important;
+}
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    color:unset !important; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
