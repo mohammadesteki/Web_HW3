@@ -14,11 +14,13 @@
   --bs-font-serif: Georgia, serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
-<<<<<<< HEAD
   --main-background-color: #f6f6f6;
   --search-background-color: rgb(187 197 201 / 64%);
-=======
->>>>>>> 52b3294f5a6d5a4e9575c4d08399ba13670f5bc7
+  --alternate-background: #ffdead;
+  --hover-card: #a4a19c;
+  --btn: #64879b;
+  --gradient: background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(4,112,189,1) 44%, rgba(69,42,108,1) 100%);
+
 }
 
 html[data-theme="light"] {
@@ -68,7 +70,6 @@ body.dark-theme img {
   img {
     filter: brightness(0.8) contrast(1.2);
   }
-<<<<<<< HEAD
   :root {
     --background-color: rgb(27, 27, 27);
     --text-color: hsla(210, 2%, 53%, 0.847);
@@ -86,13 +87,22 @@ body.dark-theme img {
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
       "Liberation Mono", "Courier New", monospace;
 
+    --hover-card: #a4a19c;
     --main-background-color: #696969;
-    --search-background-color: #888563;
-
+    --search-background-color: #8e94f2;
+    --alternate-background: #8895b3;
+    --btn: #75649b;
+    --gradient: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(4,112,189,1) 44%, rgba(69,42,108,1) 100%);
   }
-  .tablighat-section{
-    background-image: url('./img/background-cure-dark.svg') !important;
+  .tablighat-section {
+    background-image: url("./img/background-cure-dark.svg") !important;
   }
-=======
->>>>>>> 52b3294f5a6d5a4e9575c4d08399ba13670f5bc7
 }
+
+.btn-primary{
+  background-color: var(--btn) !important;
+  border: none;
+}
+
+
+

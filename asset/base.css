@@ -14,16 +14,15 @@ button:focus {
 }
 
 body{
-<<<<<<< HEAD
     font-family: "Yekan "; 
     background-color: var(--main-background-color) !important;
 
-=======
-    font-family: "Yekan"; 
->>>>>>> 52b3294f5a6d5a4e9575c4d08399ba13670f5bc7
 }
 
 
+a{
+  color: var(--text-color) !important;
+}
 .main-container{
   margin: auto;
 

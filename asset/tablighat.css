@@ -1,23 +1,27 @@
-<<<<<<< HEAD
 
 .tablighat-section  .card{
     border-radius: 16px !important;
     background-color: var(--background-color);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: relative;
-    top: -200px;
+    /* top: -200px; */
     /* box-shadow: ; */
+}
+.tablighat-section .card-img-top{
+    min-height: 100px;
+    border-radius: 16px 16px 0 0 ;
 }
 
 .tablighat-section{
+    margin-top: -200px;
     background-image: url('./img/background-curve.svg');
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center; 
-=======
-.ad-section{
-    background-color: red;
-    z-index: 1;
-    height: auto;
->>>>>>> 52b3294f5a6d5a4e9575c4d08399ba13670f5bc7
+}
+@media screen and (max-width: 760px) {
+    .tablighat-section{
+        margin-top: -100px;
+    }
+    
 }

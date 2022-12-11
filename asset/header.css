@@ -1,49 +1,58 @@
-.header-section{
-    background-image: url("./img/header.jpg");
-    height: 400px !important;
+.header-section {
+  background-image: url("./img/header.jpg");
+  height: 400px !important;
 }
 
-.header-section .navbar{
-    background-color: transparent !important;
-    /* padding: 24px 108px */
-    /* padding: ; */
+.header-section .navbar {
+  background-color: transparent !important;
+  /* padding: 24px 108px */
+  /* padding: ; */
 }
 
-.navbar__title{
-    font-size: xx-large;
-<<<<<<< HEAD
-    font-weight: bolder;
-    padding-top: 24px;
-    color: var(--text-color);
-    text-shadow:var(--background-color) 2px 2px 20px;
+.navbar__title {
+  font-size: xx-large;
+  font-weight: bolder;
+  padding-top: 24px;
+  color: var(--text-color);
+  text-shadow: var(--background-color) 2px 2px 20px;
 }
-.navbar__title--description{
-    font-size: large;
-    padding-top: 16px;
-    color: var(--text-color);
-    text-shadow:var(--background-color) 2px 2px 20px;
-
+.navbar__title--description {
+  font-size: large;
+  padding-top: 16px;
+  color: var(--text-color);
+  text-shadow: var(--background-color) 2px 2px 20px;
 }
-.navbar-brand{
-    color: var(--text-color) !important;
-    border: var(--text-color) solid 1px;
-    padding: 8px;
-    border-radius: 8px;
+.navbar-brand {
+  color: var(--text-color) !important;
+  border: var(--text-color) solid 1px;
+  padding: 8px;
+  border-radius: 8px;
 }
-.nav-link{
-    color: var(--text-color) !important;
-=======
-    padding-top: 24px;
-    color: white;
-    text-shadow:#333 2px 2px 20px;
->>>>>>> 52b3294f5a6d5a4e9575c4d08399ba13670f5bc7
+.nav-link {
+  color: var(--text-color) !important;
 }
 a {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 a:hover {
-    color:unset !important; 
-    text-decoration:none; 
-    cursor:pointer;  
+  color: unset !important;
+  text-decoration: none;
+  cursor: pointer;
 }
+table {
+  width: 100%;
+  table-layout: fixed;
+  overflow-wrap: break-word;
+}
+table input {
+  max-width: 100%;
+}
+table th:scope {
+  padding: 0px !important;
+}
+.gradient {
+  background: rgb(2, 0, 36);
+  background: var(--gradient)
+}
+

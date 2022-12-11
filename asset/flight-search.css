@@ -1,163 +1,87 @@
-
 .c-flight-search {
   /* width: 800px; */
   /* height: 300px; */
-<<<<<<< HEAD
   border-radius: 16px;
   margin: 50px auto;
   background: var(--search-background-color);
   position: relative;
   top: -200px;
   height: 300px;
+  display: flex ;
   /* width: 90%; */
 }
 
+@media screen and (max-width: 760px) {
+  .c-flight-search {
+    top: -100px;
+  }
+}
 
-.c-flight-search__cities{
+.c-flight-search__cities {
   padding: 16px;
   display: flex;
-  gap: 24px;
-}
-
-
-
-.toDate{
-  font-size: 8px;
-  color: var(--color-text) !important;
-  text-align: center;
-}
-.fromDate{
-  text-align: center;
-  color: var(--color-text) !important;
-  
-=======
-  border-radius: 4px;
-  margin: 50px auto;
-  background: linear-gradient(to right, #F86C77, #DD4F87);
-  padding: 4rem;
-  position: relative;
-}
-
-.c-city__switch {
-  float: left;
-}
-
-.c-city {
-  width: 40%;
-  float: left;
-  position: relative;
-}
-.c-city label {
-  display: block;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: rgba(255, 255, 255, 0.25);
-  font-size: 18px;
->>>>>>> 52b3294f5a6d5a4e9575c4d08399ba13670f5bc7
-}
-.c-city input {
-  width: 100%;
-  border: 0;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-  background: transparent;
-  padding: 0.5rem 0;
-  font-size: 1.5rem;
-<<<<<<< HEAD
-  color: var(--color-text);
-=======
-  color: #fff;
->>>>>>> 52b3294f5a6d5a4e9575c4d08399ba13670f5bc7
-  letter-spacing: 0.25px;
-}
-.c-city input:focus {
-  outline: none;
-}
-
-.c-city__code {
-  position: absolute;
-  top: 50%;
-  right: 0;
-  font-weight: bold;
-  color: rgba(255, 255, 255, 0.25);
-  font-size: 18px;
-}
-
-.c-city--to {
-  margin: 0 0 0 4rem;
-}
-
-<<<<<<< HEAD
-
-@media screen and (max-width: ) {
-  
-}
-.c-dates {
-  display: flex;
-  justify-content: center;
+  width: 50%;
   flex-direction: row;
+
+}
+.c-flight-search__cities input:first{
+  border-radius: 50%;
 }
 
-=======
-.c-ticket-stub {
-  width: 80px;
-  height: 100%;
-  background: #D44A84;
+.accordion-collapse strong{
+  font-size: 11px;
+  font-weight: 0;
+  color: var(--text-color);
+}
+.card{
+background-color: var(--search-background-color);  
+}
+.offcanvas-body{
+  padding: 0px;
+  background-color: var(--alternate-background-color);
+  border-radius: 0 0 24px 24px;
+}
+.offcanvas-body .buy-blit:hover{
+  background-color: var(--hover-card);
+
+}
+.buy-blit{
+  margin-top: 24px !important;
+  padding: 8px;
+}
+@media screen and (max-width: 760px) {
+  .buy-blit{
+    margin-right: 0px !important;
+    margin-left: 0 !important;
+  }
+}
+.buy-blit span{
   position: absolute;
-  top: 0;
-  right: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.c-ticket-stub img {
-  max-width: 40%;
-  transform: rotate(45deg);
-  filter: grayscale(1) invert(1);
+  top: -26px;
 }
 
-img {
-  max-width: 100%;
+.offcanvas-top {
+  height: 90% !important;
+  border-radius: 0 0 24px 24px;
 }
 
-.c-dates {
-  width: 33%;
-  float: left;
-  margin: 2.5rem 0 0 0;
+.offcanvas-top .card{
+  margin: 16px;
+  border-radius: 16px;
 }
-.c-dates label {
-  display: block;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: rgba(255, 255, 255, 0.25);
-  font-size: 18px;
+.ticket{
+  padding: 0 !important;
 }
->>>>>>> 52b3294f5a6d5a4e9575c4d08399ba13670f5bc7
-.c-dates select {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+.travel-time{
+  position: absolute;
+  top: 20px;
+  text-align: center;
   width: 100%;
-<<<<<<< HEAD
-
-  border: 0;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-  padding: 0.5rem 0;
-  /* font-size: 1.5rem; */
-  border-radius: 8px;
-  letter-spacing: 0.25px;
-=======
-  border: 0;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-  background: transparent;
-  padding: 0.5rem 0;
-  font-size: 1.5rem;
-  color: #fff;
-  letter-spacing: 0.25px;
-  margin: 1rem 0 0 0;
-  border-radius: 0;
->>>>>>> 52b3294f5a6d5a4e9575c4d08399ba13670f5bc7
-  position: relative;
 }
-.c-dates select:focus {
-  outline: none;
+.from,.to{
+  border-radius: 12px;
+  border: 1px solid var(--alternate-background-color);
 }
+/* @media screen and (max-width: ) {
+.
+} */

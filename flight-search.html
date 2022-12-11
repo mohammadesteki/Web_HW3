@@ -1,29 +1,27 @@
-<<<<<<< HEAD
 <div class="base-container">
-  <form action="">
-    <div class="c-flight-search">
-      <div class="c-flight-search__cities">
-        <div class="c-dates">
-          <div class="input-group">
-            <input
-            class="form-control"
-            list="datalistOptions"
-            id="exampleDataList"
-            placeholder="شهر مبدا ..."
-          />
-          <datalist id="datalistOptions">
-            <option value="تهران - ایران"></option>
-            <option value="مادرید - اسپانیا"></option>
-            <option value="بارسلونا - اسپانیا"></option>
-            <option value="سویا - اسپانیا"></option>
-            <option value="یورک - انگلستان"></option>
-            <option value="لیورپول - انگلستان"></option>
-            <option value="وانسیا - اسپانیا"></option>
-            <option value="وانسیا - اسپانیا"></option>
-          </datalist>
-        </div>
-          
-        <input
+  <form>
+    <div class="c-flight-search row">
+      <!-- <div class="c-flight-search__cities"> -->
+      <!-- <div class="input-group col-6"> -->
+      <input
+        class="form-control col-6"
+        list="datalistOptions"
+        id="exampleDataList"
+        placeholder="شهر مبدا ..."
+      />
+      <datalist id="datalistOptions">
+        <option value="تهران - ایران"></option>
+        <option value="مادرید - اسپانیا"></option>
+        <option value="بارسلونا - اسپانیا"></option>
+        <option value="سویا - اسپانیا"></option>
+        <option value="یورک - انگلستان"></option>
+        <option value="لیورپول - انگلستان"></option>
+        <option value="وانسیا - اسپانیا"></option>
+        <option value="وانسیا - اسپانیا"></option>
+      </datalist>
+      <!-- </div> -->
+
+      <input
         class="form-control"
         list="datalistOptions"
         id="exampleDataList"
@@ -38,47 +36,238 @@
         <option value="لیورپول - انگلستان"></option>
         <option value="وانسیا - اسپانیا"></option>
         <option value="وانسیا - اسپانیا"></option>
-
       </datalist>
-          </div>
-          
-        </div>
+      <!-- </div> -->
+
+      <div class="input-group p-0">
+
+        <span class="input-group-text" id="basic-addon2"
+          >تعداد مسافران</span>
+        <input
+          type="number"
+          class="form-control"
+          placeholder=""
+          aria-label="Recipient's username"
+          aria-describedby="basic-addon2"
+          min="1"
+          max="6"
+        />
       </div>
+      <input
+        class="col-6"
+        placeholder="تاریخ رفت"
+        type="date"
+        name="datepicker"
+        id="datepicker"
+      />
+      <input
+        class="col-6"
+        placeholder="تاریخ برگشت"
+        type="date"
+        name="datepicker"
+        id="datepicker"
+      />
+
+      <button
+        class="btn btn-primary"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasTop"
+        aria-controls="offcanvasTop"
+      >
+        جستوجو
+      </button>
     </div>
   </form>
 </div>
-=======
-<div class="c-flight-search">
-    <div class="c-flight-search__cities">
-      <div class="c-city c-city--from">
-        <label for="fromCity">From</label>
-        <input name="fromCity" type="text">
-        <span class="c-city__code">SYD</span>
+
+<div
+  class="offcanvas offcanvas-top"
+  tabindex="-1"
+  id="offcanvasTop"
+  aria-labelledby="offcanvasTopLabel"
+>
+  <div class="offcanvas-header">
+    <h5 id="offcanvasTopLabel">نتایج جست و جو</h5>
+    <button
+      type="button"
+      class="btn-close text-reset"
+      data-bs-dismiss="offcanvas"
+      aria-label="Close"
+    ></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="base-container">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="card shadow-lg">
+            <div class="ticket container-fluid">
+              <div class="row">
+                <div class="col col-lg-6">
+                  <div class="row">
+                    <div class="col col-lg-6">
+                      <a class="card text-center buy-blit" href="./ticket.html">
+                        <span>اقتصادی</span>
+                        IR ۸,۰۰۰,۰۰۰
+                      </a>
+                    </div>
+                    <div class="col col-lg-6">
+                      <!-- <div class="card text-center buy-blit"> -->
+                        <a
+                          class="card text-center buy-blit"
+                          href="./ticket.html"
+                        >
+                          <span> بیزنس </span>
+                          IR ۱۹,۰۰۰,۰۰۰
+                        </a>  
+                      <!-- </div> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 mb-4-md align-self-center">
+                  <div class="row w-100 text-center">
+                    <div class="col-3">
+                      <div class="from">۰۸:۴۰</div>
+                      <div class="">ISB</div>
+                    </div>
+                    <div class="airline col-6 position-relative">
+                      <hr class="rounded position-absolute w-100" />
+
+                      <div class="position-absolute travel-time">
+                        ۰۲:۴۵ مدت سفر
+                      </div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        id="ic_nav_Qatar_Airlines"
+                        data-name="ic_nav_Qatar Airlines"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <g id="Airline_icon" data-name="Airline icon">
+                          <g id="Qatar">
+                            <rect
+                              id="Qatar_style_"
+                              data-name="Qatar (style)"
+                              width="24"
+                              height="24"
+                              fill="none"
+                            />
+                            <g
+                              id="Qatar_-_Airways_-_Logo"
+                              data-name="Qatar - Airways - Logo"
+                            >
+                              <rect
+                                id="Qatar_-_Airways_-_Logo_style_"
+                                data-name="Qatar - Airways - Logo (style)"
+                                width="24"
+                                height="24"
+                                fill="none"
+                              />
+                              <path
+                                id="Oryx"
+                                d="M17.659,13.873c.013.341.01.68-.006,1.012-3.255.132-6.337.331-6.337.555s3.015.418,6.23.548c-.056.379-.129.751-.218,1.114-3.169.132-6.11.326-6.11.545s2.745.4,5.787.532a11.341,11.341,0,0,1-.476,1.148c-2.61.128-4.769.3-4.769.485s1.886.335,4.263.46c-.134.222-.272.438-.419.644q-.231.335-.5.662a7.055,7.055,0,0,0-2.5.384c0,.122.729.234,1.854.335a10.762,10.762,0,0,1-2.2,1.7,17.626,17.626,0,0,1-1.839-1.917c-.742-.921-2.314-3.349-2.685-3.892s-.614-.7-1.047-.544a5.69,5.69,0,0,1-1.464.314c-.207,0-.32-.082.028-.223a4.9,4.9,0,0,0,2.392-2.165,5.728,5.728,0,0,0,.091-3.654A2.681,2.681,0,0,1,6.9,13.475,3.4,3.4,0,0,0,6.373,10.8L6.089,12.13s-.179-.008-.618.369a1.9,1.9,0,0,0-.562.928c.347.143.763-.211.763-.211a17.2,17.2,0,0,1-1.851,4.552A3.186,3.186,0,0,1,2.25,19.2c-.47.193-.625-.032-.625-.032A8.705,8.705,0,0,1,.588,18.08s-.026-.046.062-.044c.228,0,.635-.4.725-.562.1-.188.091-.333.04-.344s-.138.142-.579.425-.641.087-.787-.071c-.113-.124,0-.28.069-.377A31.514,31.514,0,0,1,8.653,7.969C16.707,1.891,21.851.251,22.145.132c.194-.078.512-.181.585-.106a.3.3,0,0,1,.108.253c-.01.1-.062.15-.433.317a69.964,69.964,0,0,0-8.753,5.049A41.8,41.8,0,0,0,8.635,8.728c-.193.123-.05.3.067.226A52.03,52.03,0,0,1,23.469,2.49c.265-.077.409-.077.454-.017A.415.415,0,0,1,24,2.7c.009.1-.075.157-.3.248A65.236,65.236,0,0,0,10.592,9.2s-.292.179-.3.386c0,.077.156.087.156.087,1.407.025,3.288.11,4.182.164,0,0-.127.461-.984.834a4.427,4.427,0,0,1-1.88.246.171.171,0,0,0-.141.285c.055.073,1.343,2.189,6.029,2.672"
+                                fill="#5c0931"
+                              />
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="col-3">
+                      <div class="from">۰۸:۴۰</div>
+                      <div class="">ISB</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <img
+              src="./asset/img/profile.jpeg"
+              alt=""
+              class="footer--img card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text text-center">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است
+              </p>
+            </div> -->
+          </div>
+        </div>
+
+        <!-- <div class="row justify-content-center">
+          <div class="card shadow-lg">
+            <div class="ticket container-fluid">
+              <div class="row">
+                <div class="col col-lg-6">
+                  <div class="row">
+                    <div class="col col-lg-6">
+                      <a class="card buy-blit" href="./login.html">
+                        <span>اقتصادی</span>
+                        ۸,۰۰۰,۰۰۰ IR
+                      </a>
+                    </div>
+                    <div class="col col-lg-6">
+                      <div class="card buy-blit">
+                        <span> بیزنس </span>
+                        ۱۹,۰۰۰,۰۰۰ IR
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 mb-3 align-self-center">
+                  <div class="row w-100 text-center">
+                    <div class="from col-3">۰۸:۴۰</div>
+                    <div class="airline col-6 position-relative">
+                      <hr class="rounded position-absolute w-100" />
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        id="ic_nav_Qatar_Airlines"
+                        data-name="ic_nav_Qatar Airlines"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <g id="Airline_icon" data-name="Airline icon">
+                          <g id="Qatar">
+                            <rect
+                              id="Qatar_style_"
+                              data-name="Qatar (style)"
+                              width="24"
+                              height="24"
+                              fill="none"
+                            />
+                            <g
+                              id="Qatar_-_Airways_-_Logo"
+                              data-name="Qatar - Airways - Logo"
+                            >
+                              <rect
+                                id="Qatar_-_Airways_-_Logo_style_"
+                                data-name="Qatar - Airways - Logo (style)"
+                                width="24"
+                                height="24"
+                                fill="none"
+                              />
+                              <path
+                                id="Oryx"
+                                d="M17.659,13.873c.013.341.01.68-.006,1.012-3.255.132-6.337.331-6.337.555s3.015.418,6.23.548c-.056.379-.129.751-.218,1.114-3.169.132-6.11.326-6.11.545s2.745.4,5.787.532a11.341,11.341,0,0,1-.476,1.148c-2.61.128-4.769.3-4.769.485s1.886.335,4.263.46c-.134.222-.272.438-.419.644q-.231.335-.5.662a7.055,7.055,0,0,0-2.5.384c0,.122.729.234,1.854.335a10.762,10.762,0,0,1-2.2,1.7,17.626,17.626,0,0,1-1.839-1.917c-.742-.921-2.314-3.349-2.685-3.892s-.614-.7-1.047-.544a5.69,5.69,0,0,1-1.464.314c-.207,0-.32-.082.028-.223a4.9,4.9,0,0,0,2.392-2.165,5.728,5.728,0,0,0,.091-3.654A2.681,2.681,0,0,1,6.9,13.475,3.4,3.4,0,0,0,6.373,10.8L6.089,12.13s-.179-.008-.618.369a1.9,1.9,0,0,0-.562.928c.347.143.763-.211.763-.211a17.2,17.2,0,0,1-1.851,4.552A3.186,3.186,0,0,1,2.25,19.2c-.47.193-.625-.032-.625-.032A8.705,8.705,0,0,1,.588,18.08s-.026-.046.062-.044c.228,0,.635-.4.725-.562.1-.188.091-.333.04-.344s-.138.142-.579.425-.641.087-.787-.071c-.113-.124,0-.28.069-.377A31.514,31.514,0,0,1,8.653,7.969C16.707,1.891,21.851.251,22.145.132c.194-.078.512-.181.585-.106a.3.3,0,0,1,.108.253c-.01.1-.062.15-.433.317a69.964,69.964,0,0,0-8.753,5.049A41.8,41.8,0,0,0,8.635,8.728c-.193.123-.05.3.067.226A52.03,52.03,0,0,1,23.469,2.49c.265-.077.409-.077.454-.017A.415.415,0,0,1,24,2.7c.009.1-.075.157-.3.248A65.236,65.236,0,0,0,10.592,9.2s-.292.179-.3.386c0,.077.156.087.156.087,1.407.025,3.288.11,4.182.164,0,0-.127.461-.984.834a4.427,4.427,0,0,1-1.88.246.171.171,0,0,0-.141.285c.055.073,1.343,2.189,6.029,2.672"
+                                fill="#5c0931"
+                              />
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="to col-3">۰۸:۴۰</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
       </div>
-      <button class="c-city__switch"></button>
-      <div class="c-city c-city--to">
-        <label for="fromCity">To</label>
-        <input name="toCity" type="text">
-        <span class="c-city__code">TXL</span>
-      </div>
-    </div>
-    
-    <div class="c-dates">
-      <div class="c-fromDate">
-        <label for="fromDate">Depart</label>
-        <select name="fromDate">
-          <option>20.Oct 2016</option>
-          <option> -- ADD DATE PICKER -- </option>
-  
-        </select>
-      </div>
-      
-      <div class="c-toDate">
-      </div>
-    </div>
-    
-    <div class="c-ticket-stub">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Plane_font_awesome.svg/512px-Plane_font_awesome.svg.png">
     </div>
   </div>
->>>>>>> 52b3294f5a6d5a4e9575c4d08399ba13670f5bc7
+</div>

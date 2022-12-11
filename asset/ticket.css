@@ -1,0 +1,15 @@
+.header__return-button{
+
+    padding: 16px;
+}
+
+.header__return-button input{
+    padding: 8px;
+}
+
+
+
+.confirm{
+    position: absolute;
+    width: 100%;
+}

@@ -190,11 +190,15 @@ p, ul li, ol li {
     padding-bottom: 10px;
 }
 
-<<<<<<< HEAD
 /* Credit to https://bootsnipp.com/snippets/X2XOv */
 
 .footer--img{
     position: relative;
+    border-radius: 50%;
+    top: -20px;
+    width: 150px;
+    height: 150px;
+    margin: auto;
 
 }
 
@@ -207,7 +211,11 @@ p, ul li, ol li {
 .footer-section .card{
     max-width: 300px;
     margin: auto;
+    border-radius: 8px;
+    margin-top: 80px;
+
 }
-=======
-/* Credit to https://bootsnipp.com/snippets/X2XOv */
->>>>>>> 52b3294f5a6d5a4e9575c4d08399ba13670f5bc7
+.members{
+    background-color: var(--alternate-background);
+
+}
