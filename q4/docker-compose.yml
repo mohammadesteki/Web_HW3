@@ -6,6 +6,12 @@ services:
     restart: unless-stopped
     ports:
     - "8080:8080"
+
+  auth-backend:
+    build: ./auth-backend
+    restart: unless-stopped
+    ports:
+    - "8081:8080"
   front:
     build: ./frontend
     restart: always
