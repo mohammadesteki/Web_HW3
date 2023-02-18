@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  postgres:
+    restart: unless-stopped
+    image: dockerhub.ir/postgres
+    environment:
+      - POSTGRES_DB=test
+      - POSTGRES_USER=test
+      - POSTGRES_PASSWORD=123456
+    volumes:
+      - ./data:/var/lib/postgresql/data/
+      - ./dummy-data:/dummy-data
+    ports:
+    - "5432:5432"
+
